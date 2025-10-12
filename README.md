@@ -80,7 +80,7 @@ If you’d like to improve this project, follow these steps:
    ```
 
 4. Push and open a Pull Request
-   Before contributing, please read the [CONTRIBUTING.md](https://github.com/rabsss/GPS_Logger?tab=MIT-1-ov-file) for guidelines.
+   Before contributing, please read the [CONTRIBUTING.md](https://github.com/rabsss/GPS_Logger?tab=contributing-ov-file) for guidelines.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/rabsss/GPS_Logger?tab=MIT-1-ov-file) for details.
