@@ -117,10 +117,12 @@ jobs:
     runs-on: ubuntu-latest
     needs: makesite
     steps:
-      - name: Recreate gh-pages branch to minimize history
+      - name: Minimize history
         run: |
-          git branch -D gh-pages
-          git switch --orphan gh-pages
+          git checkout gh-pages
+          git reset --soft HEAD~$(git rev-list --count HEAD ^gh-pages)
+          git add -A
+          git commit -m "Squash history"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
