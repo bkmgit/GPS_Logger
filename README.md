@@ -1,6 +1,7 @@
 # GPS Logger
 
-**GPS Logger** is an open-source Android application that records your device's GPS location in real-time.  
+**GPS Logger** is an open-source Android application that records your device's GPS location in real-time.
+
 It’s lightweight, accurate, and built using **[LambdaNative](https://github.com/part-cw/lambdanative)** — a cross-platform Scheme-based framework for mobile and embedded applications.
 
 ---
